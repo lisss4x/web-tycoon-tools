@@ -10,7 +10,7 @@ const spam = require("./libs/spam");
 
 const app = express();
 
-let lastResult = ["..."];
+let lastResult = ["................."];
 
 const addLog = (type, ...args) => {
   console[type](...args);
